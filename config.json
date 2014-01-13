@@ -1,0 +1,11 @@
+{
+    "pHCalHigh": 2039,
+    "pHCalLow": 1319,
+    "pHStep": 47.95204795204795,
+    "pHCalLowSolution": 4,
+    "pHCalHighSolution": 6.86,
+    "vRef": 4.096,
+    "opampGain": 5.25,
+    "filter_n": 100,
+    "scale": 100
+}
