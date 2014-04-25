@@ -56,10 +56,10 @@ var MiniPh = function (device, address) {
 	this.calcpHSlope();
 }
 
-MiniPh.params = require('./config.json');
+MiniPh.params = require('./ph-config.json');
 
 MiniPh.prototype.saveConfig = function () {
-	require('fs').writeFileSync('./config.json', JSON.stringify(MiniPh.params, null, 4));
+	require('fs').writeFileSync('./ph-config.json', JSON.stringify(MiniPh.params, null, 4));
 }
 // MCP3221 address A5 in Dec 77 A0 = 72 A7 = 79)
 // A0 = x48, A1 = x49, A2 = x4A, A3 = x4B,
